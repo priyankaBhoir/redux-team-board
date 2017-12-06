@@ -1,0 +1,11 @@
+export const ADD_MEMBER = 'ADD_MEMBER';
+export const DELETE_MEMBER = 'DELETE_MEMBER';
+export const EDIT_MEMBER = 'EDIT_MEMBER';
+export const MEMBERS_LOADED = 'MEMBERS_LOADED'; 
+export const FILTER_BY_COMPANY = 'FILTER_BY_COMPANY'; 
+export const FILTER_BY_STATUS = 'FILTER_BY_STATUS'; 
+export const UPDATE_CURRENT_PAGE = 'UPDATE_CURRENT_PAGE'; 
+export const SHOW_MODAL = 'SHOW_MODAL'; 
+export const HIDE_MODAL = 'HIDE_MODAL'; 
+export const TOGGLE_NAME_SORT  = 'TOGGLE_NAME_SORT'; 
+export const TOGGLE_COMPANY_SORT  = 'TOGGLE_COMPANY_SORT'; 

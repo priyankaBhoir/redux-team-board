@@ -1,0 +1,13 @@
+.board-layout .board-content {
+  /* margin-left: 15%; */
+  margin-left: 250px;
+  font-family: Avenir; }
+  .board-layout .board-content h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: left; }
+  .board-layout .board-content .round-btn {
+    margin: 0px 5px;
+    height: 32px;
+    border-radius: 24px; }

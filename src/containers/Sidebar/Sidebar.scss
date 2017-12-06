@@ -1,0 +1,64 @@
+@import '../../colors.scss';
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 15%; */
+  width: 250px;
+  height: 100%;
+  background-color: $black;
+
+  .logo {
+    height: 87.5px;
+    padding: 24px  0px 0px 24px;
+
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-align: left;
+    color: $white;
+    display: flex;
+    flex-flow: row wrap;
+
+    a {
+      color: #fbfbfb;
+      text-decoration: none;
+    }
+
+    .combined-Shape{
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      background: $white;
+      color: $black;
+      padding: 10px;
+      margin-right: 10px;
+    }
+    
+  }
+
+  ul {
+    padding: 8px;
+    li {
+      height: 30px;
+      padding: 10px 25px;
+      opacity: 0.3;
+      font-size: 14px;
+      line-height: 1.71;
+      text-align: left;
+      color: $grey;
+
+      a {
+        color: $grey;
+        text-decoration: none;
+      }
+
+      &.active {
+        opacity: 1;
+        font-weight: 900;
+        background-color: $lightish-blue;
+      }
+    }
+  }
+}
