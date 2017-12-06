@@ -35,7 +35,7 @@ export default class MemberModal extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if(this.props.id !== nextProps.id) {
+    if(this.props.id !== nextProps.id || (nextProps.id === undefined)) {
       this.setState(this.setIntialState(nextProps))
     }
   }

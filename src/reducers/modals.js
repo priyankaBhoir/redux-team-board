@@ -13,7 +13,7 @@ const filters = (state = initialState, action) => {
     case SHOW_MODAL :
       return {
         showModel: true,
-        modalProps: action.member
+        modalProps: action.member || {}
       }
     case HIDE_MODAL :
       return initialState;
